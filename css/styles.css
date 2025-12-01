@@ -50,7 +50,7 @@ main {
 
 #presentation {
   text-align: center;
-  background-image: url(/img/ian-valerio-m5D5dHWHfSk-unsplash.jpg);
+  background-image: url(./img/ian-valerio-m5D5dHWHfSk-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,7 +78,7 @@ main {
 }
 
 .details-image1{
-    background-image: url(/img/nathan-dumlao-2Ud1LTmYt7I-unsplash.jpg);
+    background-image: url(./img/nathan-dumlao-2Ud1LTmYt7I-unsplash.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -86,14 +86,14 @@ main {
 .details-image2{
     background-size: cover;
     background-position: center;
-    background-image: url(/img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg);
+    background-image: url(./img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg);
 
 }
 
 .details-image3{
     background-size: cover;
     background-position: center;
-    background-image: url(/img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg);
+    background-image: url(./img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg);
 }
 
 .divided {

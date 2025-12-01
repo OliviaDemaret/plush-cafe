@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #c6dea6;
+}
+
+header,
+footer {
+  font-size: 18px;
+  background-color: #697a21;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div img {
+  padding: 20px 20px 20px 100px;
+}
+
+header div nav ul {
+  display: flex;
+  padding-right: 100px;
+}
+
+header div nav li {
+  padding: 20px 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#presentation {
+  text-align: center;
+  background-image: url(/img/ian-valerio-m5D5dHWHfSk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 36px;
+}
+
+#presentation div {
+  padding: 100px;
+}
+
+.details {
+  background-color: #c6dea6;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.details-divided {
+  padding 50px 20px;
+}
+
+.details-image1{
+    background-image: url(/img/nathan-dumlao-2Ud1LTmYt7I-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.details-image2{
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg);
+
+}
+
+.details-image3{
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg);
+}
+
+.divided {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px;
+  height: 500px;
+}
+
+.divided div {
+  text-align: center;
+  width: 50%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.details h2,
+.details p {
+  padding: 0px 30px;
+}
+
+.divided-reverse div {
+  text-align: center;
+  width: 50%;
+}
+
+.divided-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px 0px;
+  height: 500px;
+}
+footer {
+  padding: 10px 100px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.footer-reseaux ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-copyright {
+  padding-top: 20px;
+  text-align: center;
+}

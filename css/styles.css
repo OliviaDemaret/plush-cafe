@@ -1,8 +1,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  color: #ECC8AF;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #ecc8af;
+  font-family: "Alan Sans", sans-serif;
 }
 
 a,
@@ -10,19 +10,26 @@ li,
 ul {
   text-decoration: none;
   list-style: none;
-  color: #ECC8AF;
+  color: #ecc8af;
 }
 
-a:hover{
-  color:#B07156
+a:hover {
+  color: #b07156;
+}
+
+.lien-header {
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 .lien-header:hover {
-  background-color: #B07156;
-  color: #ECC8AF;
+  background-color: #b07156;
+  color: #ecc8af;
   padding: 10px 20px;
   transition: 0.3s;
   border-radius: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 header,
@@ -67,12 +74,17 @@ main {
   font-size: 36px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 #presentation div {
   padding: 100px;
 }
 
-.details, #contact-main {
-  background-color: #B07156;
+.details,
+#contact-main {
+  background-color: #b07156;
 }
 
 #presentation {
@@ -81,27 +93,22 @@ main {
   height: 100%;
 }
 
-.details-divided {
-  padding 50px 20px;
+.details-image1 {
+  background-image: url("../img/nathan-dumlao-2Ud1LTmYt7I-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.details-image1{
-    background-image: url("../img/nathan-dumlao-2Ud1LTmYt7I-unsplash.jpg");
-    background-size:cover;
-    background-position: center;
+.details-image2 {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg");
 }
 
-.details-image2{
-    background-size: cover;
-    background-position: center;
-    background-image: url("../img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg");
-
-}
-
-.details-image3{
-    background-size: cover;
-    background-position: center;
-    background-image: url("../img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg");
+.details-image3 {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg");
 }
 
 .divided {
@@ -164,42 +171,62 @@ footer {
   text-align: center;
 }
 
-#contact-main{
-  background-color: #ECC8AF;
+#contact-main {
+  background-image: url(/img/tristan-gevaux-mPgcvlHJy7g-unsplash.jpg);
+  background-size: cover;
   color: #697a21;
-flex-direction: column;
-align-items: center;
-padding: 50px 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
 }
 
-#contact-form{
-background-color: #ECC8AF;
-max-width: 600px;/* Largeur maximum */
-margin: 0 auto; /* Centré */
-padding: 30px;
+form {
+  background-color: #ecc8af;
+  max-width: 600px; /* Largeur maximum */
+  margin: 0 auto; /* Centré */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Alan Sans", sans-serif;
 }
 
-.form-group{
+.form-group {
   padding: 10px 0px;
 }
 
-.form-input{
-  padding: 10px 0px;
+.form-input {
+  padding: 10px 10px;
   width: 500px;
+  font-family: "Alan Sans", sans-serif;
+  border-radius: 10px;
+  border-style: none;
 }
 
-.btn-submit{
+.form-input:focus {
+  padding: 7px 7px;
+  border-style: solid;
+  border-color: #b07156;
+  border-width: 3px;
+  outline: none;
+}
+
+.btn-submit {
+  margin: 20px 0px;
+  font-family: "Alan Sans", sans-serif;
+  font-size: 20px;
   padding: 10px 20px;
   border-radius: 20px;
   border-style: none;
-  background-color: #B07156;
-  color: #ECC8AF;
+  background-color: #b07156;
+  color: #ecc8af;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn-submit:hover{
-  color: #ECC8AF;
-background-color: #697a21;
-transition: 0.3s; 
-
-
+.btn-submit:hover {
+  font-family: "Alan Sans", sans-serif;
+  font-size: 20px;
+  color: #ecc8af;
+  background-color: #697a21;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }

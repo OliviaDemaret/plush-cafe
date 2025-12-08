@@ -14,14 +14,30 @@
       <div id="dive-nav">
         <nav>
           <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">A propos</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="lien-header" href="index.html">Accueil</a></li>
+            <li><a class="lien-header" href="about.html">A propos</a></li>
+            <li><a class="lien-header" href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main></main>
+    <main id="contact-main">
+      <form class="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="nom">Nom</label><br><br>
+          <input class="form-input" type="text" id="nom" name="nom">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label><br><br>
+          <input class="form-input" type="email" id="email" name="email">
+        </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label><br><br>
+            <textarea class="form-input" id="message" name="message"rows="5"></textarea>
+        </div>
+        <button class="btn-submit" type="submit">Envoyer</button>
+      </form>
+    </main>
     <footer>
       <div class="footer-contact">
         <div class="footer-logo">

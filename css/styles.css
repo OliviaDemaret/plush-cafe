@@ -1,3 +1,4 @@
+/******General Settings******/
 body {
   margin: 0px;
   padding: 0px;
@@ -17,6 +18,7 @@ a:hover {
   color: #b07156;
 }
 
+/******Header and Footer Settings******/
 .lien-header {
   font-size: 20px;
   text-transform: capitalize;
@@ -58,10 +60,37 @@ header div nav li {
   padding: 20px 30px;
 }
 
+footer {
+  padding: 10px 100px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.footer-reseaux ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-copyright {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/******Main Settings******/
 main {
   display: flex;
   flex-direction: column;
 }
+
+/******Index Settings******/
 
 #presentation {
   text-align: center;
@@ -147,29 +176,8 @@ h2 {
   padding: 0px 0px;
   height: 500px;
 }
-footer {
-  padding: 10px 100px;
-}
 
-.footer-contact {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  padding: 10px 50px;
-}
-
-.footer-reseaux ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.footer-copyright {
-  padding-top: 20px;
-  text-align: center;
-}
+/******Contact Settings******/
 
 #contact-main {
   background-image: url(/img/tristan-gevaux-mPgcvlHJy7g-unsplash.jpg);

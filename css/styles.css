@@ -12,6 +12,7 @@ ul {
   text-decoration: none;
   list-style: none;
   color: #ecc8af;
+  padding: 20px;
 }
 
 a:hover {
@@ -27,7 +28,7 @@ a:hover {
 .lien-header:hover {
   background-color: #b07156;
   color: #ecc8af;
-  padding: 10px 20px;
+  padding: 10px 10px;
   transition: 0.3s;
   border-radius: 20px;
   font-size: 20px;
@@ -48,12 +49,12 @@ header {
 }
 
 header div img {
-  padding: 20px 20px 20px 100px;
+  padding: 20px 50px;
 }
 
 header div nav ul {
   display: flex;
-  padding-right: 100px;
+  padding-right: 10px;
 }
 
 header div nav li {
@@ -76,12 +77,21 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
+}
+
+.footer-reseaux ul li {
+  padding: 10px;
 }
 
 .footer-copyright {
   padding-top: 20px;
   text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-self: center;
+  padding: 50px;
 }
 
 /******Main Settings******/

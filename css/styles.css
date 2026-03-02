@@ -12,11 +12,10 @@ ul {
   text-decoration: none;
   list-style: none;
   color: #ecc8af;
-  padding: 20px;
 }
 
 a:hover {
-  color: #b07156;
+  color: #f96562;
 }
 
 /******Header and Footer Settings******/
@@ -26,7 +25,7 @@ a:hover {
 }
 
 .lien-header:hover {
-  background-color: #b07156;
+  background-color: #f96562;
   color: #ecc8af;
   padding: 10px 10px;
   transition: 0.3s;
@@ -38,7 +37,7 @@ a:hover {
 header,
 footer {
   font-size: 18px;
-  background-color: #697a21;
+  background-color: #b07156;
 }
 
 header {
@@ -49,7 +48,7 @@ header {
 }
 
 header div img {
-  padding: 20px 50px;
+  padding: 5px 50px;
 }
 
 header div nav ul {
@@ -113,6 +112,10 @@ main {
   font-size: 36px;
 }
 
+h1 {
+  position: relative;
+}
+
 h2 {
   font-size: 30px;
 }
@@ -130,6 +133,21 @@ h2 {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+@keyframes myAnimation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.hero {
+  animation-name: myAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
 }
 
 .details-image1 {
@@ -192,14 +210,15 @@ h2 {
 #contact-main {
   background-image: url(../img/tristan-gevaux-mPgcvlHJy7g-unsplash.jpg);
   background-size: cover;
-  color: #697a21;
+  color: #ecc8af;
   flex-direction: column;
   align-items: center;
   padding: 50px 20px;
 }
 
 form {
-  background-color: #ecc8af;
+  background-color: #b07156;
+  opacity: 75%;
   max-width: 600px; /* Largeur maximum */
   margin: 0 auto; /* Centré */
   padding: 30px;
@@ -213,6 +232,7 @@ form {
 }
 
 .form-input {
+  opacity: 100%;
   padding: 10px 10px;
   width: 500px;
   font-family: "Alan Sans", sans-serif;
@@ -235,7 +255,7 @@ form {
   padding: 10px 20px;
   border-radius: 20px;
   border-style: none;
-  background-color: #b07156;
+  background-color: #f96562;
   color: #ecc8af;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }

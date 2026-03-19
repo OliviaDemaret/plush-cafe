@@ -15,7 +15,7 @@ ul {
 }
 
 a:hover {
-  color: #f96562;
+  color: #dc6acf;
 }
 
 /******Header and Footer Settings******/
@@ -25,7 +25,7 @@ a:hover {
 }
 
 .lien-header:hover {
-  background-color: #f96562;
+  background-color: #dc6acf;
   color: #ecc8af;
   padding: 10px 10px;
   transition: 0.3s;
@@ -103,7 +103,7 @@ main {
 
 #presentation {
   text-align: center;
-  background-image: url("../img/ian-valerio-m5D5dHWHfSk-unsplash.jpg");
+  background-image: url("../img/ian-valerio-m5D5dHWHfSk-unsplash.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -151,7 +151,7 @@ h2 {
 }
 
 .details-image1 {
-  background-image: url("../img/nathan-dumlao-2Ud1LTmYt7I-unsplash.jpg");
+  background-image: url("../img/nathan-dumlao-2Ud1LTmYt7I-unsplash.webp");
   background-size: cover;
   background-position: center;
 }
@@ -159,13 +159,13 @@ h2 {
 .details-image2 {
   background-size: cover;
   background-position: center;
-  background-image: url("../img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg");
+  background-image: url("../img/nathan-dumlao-ikU3J1nr52w-unsplash.webp");
 }
 
 .details-image3 {
   background-size: cover;
   background-position: center;
-  background-image: url("../img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg");
+  background-image: url("../img/tabitha-turner-PSqT-lQAt7A-unsplash.webp");
 }
 
 .divided {
@@ -208,7 +208,7 @@ h2 {
 /******Contact Settings******/
 
 #contact-main {
-  background-image: url(../img/tristan-gevaux-mPgcvlHJy7g-unsplash.jpg);
+  background-image: url(../img/tristan-gevaux-mPgcvlHJy7g-unsplash.webp);
   background-size: cover;
   color: #ecc8af;
   flex-direction: column;
@@ -255,7 +255,7 @@ form {
   padding: 10px 20px;
   border-radius: 20px;
   border-style: none;
-  background-color: #f96562;
+  background-color: #dc6acf;
   color: #ecc8af;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
